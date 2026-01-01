@@ -1,0 +1,16 @@
+{
+  "name": "gmers-mailer",
+  "version": "1.0.0",
+  "description": "Sponsorship email sender for GMERS XVI",
+  "main": "send.js",
+  "scripts": {
+    "send": "node send.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@getbrevo/brevo": "^3.0.1",
+    "dotenv": "^16.4.0",
+    "nodemailer": "^6.9.0"
+  }
+}
